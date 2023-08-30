@@ -6,13 +6,13 @@ def solution(participant, completion):
     for name in participant:
         chk[name] = chk[name] + 1 if name in chk else 1
         
-        # if name in chk:
-        #     chk[name] += 1
-        # elif name not in chk:
-        #     chk[name] = 1
+    # if name in chk:
+    #     chk[name] += 1
+    # elif name not in chk:
+    #     chk[name] = 1
         
-        # chk[name] = chk.get(name, 0) + 1
-        # dict.get(key, defualt = None)		key에 해당하는 value가져오고 없으면 return 0
+    # chk[name] = chk.get(name, 0) + 1
+    # dict.get(key, defualt = None)		key에 해당하는 value가져오고 없으면 return 0
               
     
     for name in completion:
